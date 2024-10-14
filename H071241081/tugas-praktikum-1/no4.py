@@ -1,0 +1,8 @@
+print ("konversi suhu dari Celcius ke Kelvin, reamur dan Fahrenheit")
+suhu_dalam_celcius = float (input( "masukan suhu dalam Celcius :"))
+kelvin = int (suhu_dalam_celcius + 273.15)
+reamur = int ((4/5)*suhu_dalam_celcius)
+fahrenheit = int ((9/5)*suhu_dalam_celcius+32)
+print (f"hasil konversi dari suhu {suhu_dalam_celcius} celcius ke kelvin adalah {kelvin}K")
+print (f"hasil konversi dari suhu {suhu_dalam_celcius} celcius ke reamur adalah {reamur}°R")
+print (f"hasil konversi dari suhu {suhu_dalam_celcius} celcius ke fahrenheit adalah {fahrenheit}°F")
